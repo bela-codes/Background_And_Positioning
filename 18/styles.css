@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: radial-gradient(#0288d1, #01579b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification  {
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    position: relative;
+}
+
+.notification a {
+    color: white;
+    text-decoration: none;
+}
+
+.notification span {
+    background: #4caf50;
+    padding: 5px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
